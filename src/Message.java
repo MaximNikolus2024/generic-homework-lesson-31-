@@ -1,12 +1,12 @@
 public class Message <T> {
 
-    private T object;
+    private T message;
 
-    public T getObject() {
-        return object;
+    public T getMessage() {
+        return message;
     }
 
-    public void setObject(T object) {
-        this.object = object;
+    public void setMessage(T message) {
+        this.message = message;
     }
 }
